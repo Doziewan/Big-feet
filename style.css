@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+        background:linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.5)),white ;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 340vh;
+      background: position 0; ;
+      margin: 0%;
+      padding: 0%;
+      padding-top: 100px;
+      
+}
+.hap{
+  color: white;
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border-bottom: 3px solid orange;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.rap{
+  display: flex;
+  align-items: center;
+}
+.add{
+  border-radius: 50px;
+  width: 4vw;
+}
+.gat{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pat{
+  width: 400px;
+  padding: 30px;
+  background-color: rgba(255,255,255,0.6);
+  margin-left: 50px;
+  height: 60vh;
+  border-radius: 30px;
+
+}
+.one,.two,.three,.four{
+  padding-bottom: 20px;
+  color: black;
+}
+.five,.six{
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid   black;
+  margin: 6px;
+  background-color: orange;
+  transition: 1s;
+}
+.five:hover{
+  background-color: black;
+  color: beige;
+}
+.six:hover{
+  background-color: black;
+  color: beige;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+nav a{
+  padding: 10px;
+}
+/* production section*/
+.eleven{
+  padding: 20px;
+}
+.hat{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  padding: 6px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+h1{
+  color: white;
+}
+img{
+  width: 20vw;
+  border-radius: 20px;
+  
+}
+.seven{
+width: 350px;
+height: 80vh;
+  background-color: rgba(255,255,255,0.6);
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+}
+.eight{
+width: 350px;
+height: 80vh;
+  background-color: rgba(255,255,255,0.6);
+  margin-bottom: 20px;
+    border-radius: 20px;
+}
+.nine{
+width: 350px;
+height: 90vh;
+  background-color: rgba(255,255,255,0.6);
+  margin-bottom: 50px;
+    border-radius: 20px;
+}
+.ten{
+width: 350px;
+height: 80vh;
+  background-color: rgba(255,255,255,0.6);
+  margin-bottom: 200px;
+    border-radius: 20px;
+  
+}
+.aen,.ben,.cen,.den,h4{
+  padding: 5px;
+  padding-left: 15px;
+    border-radius: 20px;
+}
+/* about section */
+.about{
+  width: 400px;
+  margin-bottom: 30px;
+  padding-right: 45px;
+}
+.h1{
+  margin-bottom: 10px;
+  color:white;
+}
+.p1{
+  color: white;
+  
+}
+/* contact section */
+.contact{
+  padding: 20px;
+  margin-bottom:30px ;
+  width: 500px;
+  height: 40vh;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 30px;
+  margin-left: 20px;
+}
+.how{
+  color: blue;
+}
+.her{
+  height: 60vh;
+}
+/* footer */
+footer{border-radius: 5px;
+  background-color: black;
+  padding: 30px;
+  color: white;
+  border-top: solid orange 8px;
+
+  
+}
+    @media (max-width: 500px) {
+    body{
+        /* background:linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.5)),white ; */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400vh;
+      background: position 0; ;
+      margin: 0%;
+      padding: 0%;
+      
+}
+.about{
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+  .hat{
+  display: grid;
+  grid-template-columns: 1fr ;
+  padding: 6px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  max-width: 50%;
+  flex: 50%;
+
+}
+.gat{
+  padding-right: 30px;
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+  
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border-bottom: 3px solid orange;
+  position: sticky;
+  top: 0;
+  font-size: x-small;
+  
+}
+
+.hap{
+  font-size: smaller;
+  font-weight: bolder;
+}
+.add{
+  width: 8vw;
+}
+.head nav{
+  padding-left: 15px;
+}
+
+   img{
+  width: 200px;
+  border-radius: 20px;
+  
+} 
+.seven,.eight,.nine,.ten{
+  height: 50vh;
+  width: 68vw;
+}
+.ten{
+  height: 55vh;
+}
+.ten img{
+  height: 35vh;
+}
+.contact{
+  padding: 20px;
+  width: 390px;
+  margin-bottom: 60px;
+}
+}
