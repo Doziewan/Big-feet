@@ -1,8 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 body{
         background:linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.5)),white ;
       background-size: cover;
@@ -28,6 +24,7 @@ body{
   border-bottom: 3px solid orange;
   position: fixed;
   top: 0;
+
   left: 0;
   right: 0;
 }
