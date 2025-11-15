@@ -22,7 +22,7 @@ body{
   align-items: center;
   justify-content: space-between;
   background-color: black;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 20px;
   border-radius: 8px;
   border-bottom: 3px solid orange;
@@ -39,27 +39,22 @@ body{
   border-radius: 50px;
   width: 4vw;
 }
-.gat{
+#ABOUT{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
 }
 .pat{
-  width: 400px;
+  width: 300px;
   padding: 30px 20px;
   background-color: rgba(255,255,255,0.6);
   /* margin-left: 50px; */
   height: fit-content;
   border-radius: 30px;
 
-}
-.one,.two,.three,.four{
-  padding-bottom: 20px;
-  color: black;
-}
-.five,.six{
+}.five,.six{
   margin-bottom: 50px;
   padding: 10px;
   border-radius: 5px;
@@ -80,25 +75,21 @@ body{
 a{
   text-decoration: none;
   color: white;
+  padding: 8px;
 }
-nav a{
-  padding: 10px;
+.put{
+    width: 50vw;
 }
-/* production section*/
-.eleven{
-  padding: 20px;
-}
+
+/* product section */
 .hat{
   display: grid;
-  grid-template-columns: 500px 500px;
+  grid-template-columns: 1fr 1fr;
   padding: 6px;
   justify-content: space-around;
   flex-wrap: wrap;
 
 
-}
-h1{
-  color: white;
 }
 img{
   width: 20vw;
@@ -107,67 +98,45 @@ img{
 }
 .seven{
 width:fit-content;
-/* height: 80vh; */
+ height: 70vh; 
   background-color: rgba(255,255,255,0.6);
   margin-bottom: 20px;
   border-radius: 20px;
 
 }
 .eight{
-width: 350px;
-height: 80vh;
+width: fit-content;
+height: 70vh;
   background-color: rgba(255,255,255,0.6);
   margin-bottom: 20px;
     border-radius: 20px;
 }
 .nine{
-width: 350px;
-height: 90vh;
+width: fit-content;
+ height: 70vh;
   background-color: rgba(255,255,255,0.6);
   margin-bottom: 50px;
     border-radius: 20px;
 }
 .ten{
-width: 350px;
-height: 80vh;
+width: fit-content;
+ height: 60vh;
   background-color: rgba(255,255,255,0.6);
   margin-bottom: 200px;
     border-radius: 20px;
-  
-}
-.aen,.ben,.cen,.den,h4{
-  padding: 5px;
-  padding-left: 15px;
-    border-radius: 20px;
-}
-/* about section */
-.about{
-  width: 400px;
-  margin-bottom: 30px;
-  padding: 45px;
-}
-.h1{
-  margin-bottom: 10px;
-  color:white;
-}
-.p1{
-  color: white;
   
 }
 /* contact section */
 .contact{
   padding: 20px;
   margin-bottom:30px ;
-  width: 500px;
+  width: fit-content;
   height: 40vh;
   background-color: rgba(255,255,255,0.6);
   border-radius:30px;
 }
 .how{
   color: blue;
-}
-.her{
-  height: 60vh;
 }
 /* footer */
 footer{border-radius: 5px;
@@ -178,88 +147,61 @@ footer{border-radius: 5px;
 
   
 }
-    @media (max-width: 920px) {
-    body{
-        /* background:linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.5)),white ; */
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background: position 0;
-      margin: 0%;
-      padding: 0%;
-      
+ @media (max-width: 920px) {
+  body{
+    padding-top: 50px;
+  }
+ h1.hap{
+  padding-right: 7px;
+  font-size: small;
+  font-weight: bold;
+
+ }
+ .eleven{
+  font-size: small;
+  padding-left: 5px;
+ }
+.head{
+  display: flex;
+  font-size: xx-small;
+}
+nav a{
+  font-size: xx-small;
 }
 .about{
   padding-top: 30px;
   /* padding-left: 50px; */
 }
+.put{
+  width: 70vw;
+  padding: 10px;
+}
 
   .hat{
-  display: grid;
-  grid-template-columns: 1fr ;
+  display: flex;
+   max-width: 50%;  
   padding: 6px;
   justify-content: space-around;
   flex-wrap: wrap;
   padding-left: 40px;
-  max-width: 50%;
-  flex: 50%;
 
-}
-.gat{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-.head{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: black;
-  padding: 20px;
   
-  margin-bottom: 20px;
-  border-radius: 8px;
-  border-bottom: 3px solid orange;
-  position: sticky;
-  top: 0;
-  font-size: x-small;
-  
-}
 
-.hap{
-  font-size: smaller;
-  font-weight: bolder;
 }
-.add{
-  width: 8vw;
+.seven,.eight,.nine,.ten {
+  height: 40vh;
+ 
 }
-.head nav{
-  padding-left: 15px;
+.seven img{
+  width: 40vw;
 }
-
-   img{
-  width: 200px;
-  border-radius: 20px;
-  
-} 
-.seven,.eight,.nine,.ten{
-  /* height: 50vh; */
-  width: fit-content;
-  padding: 20px ;
+.eight img{
+  width: 40vw;
 }
-.ten{
-  height: 55vh;
+.nine img{
+  width: 38vw;
 }
 .ten img{
-  height: 35vh;
-}
-.contact{
-  padding: 20px;
-  width: 390px;
-  margin-bottom: 60px;
+width: 40vw;
 }
 }
