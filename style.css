@@ -205,9 +205,15 @@ footer{border-radius: 5px;
   flex: 50%;
 
 }
-/* .gat{
-  padding-right: 30px;
-} */
+.gat{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
 .head{
   display: flex;
   align-items: center;
