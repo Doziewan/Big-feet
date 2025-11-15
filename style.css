@@ -1,4 +1,8 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
         background:linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.5)),white ;
       background-size: cover;
@@ -23,8 +27,7 @@ body{
   border-radius: 8px;
   border-bottom: 3px solid orange;
   position: fixed;
-  top: 0;
-
+  top:0;
   left: 0;
   right: 0;
 }
@@ -41,13 +44,14 @@ body{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 20px;
 }
 .pat{
   width: 400px;
-  padding: 30px;
+  padding: 30px 20px;
   background-color: rgba(255,255,255,0.6);
-  margin-left: 50px;
-  height: 60vh;
+  /* margin-left: 50px; */
+  height: fit-content;
   border-radius: 30px;
 
 }
@@ -102,8 +106,8 @@ img{
   
 }
 .seven{
-width: 350px;
-height: 80vh;
+width:fit-content;
+/* height: 80vh; */
   background-color: rgba(255,255,255,0.6);
   margin-bottom: 20px;
   border-radius: 20px;
@@ -140,7 +144,7 @@ height: 80vh;
 .about{
   width: 400px;
   margin-bottom: 30px;
-  padding-right: 45px;
+  padding: 45px;
 }
 .h1{
   margin-bottom: 10px;
@@ -157,8 +161,7 @@ height: 80vh;
   width: 500px;
   height: 40vh;
   background-color: rgba(255,255,255,0.6);
-  border-radius: 30px;
-  margin-left: 20px;
+  border-radius:30px;
 }
 .how{
   color: blue;
@@ -188,7 +191,7 @@ footer{border-radius: 5px;
 }
 .about{
   padding-top: 30px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
   .hat{
@@ -202,9 +205,9 @@ footer{border-radius: 5px;
   flex: 50%;
 
 }
-.gat{
+/* .gat{
   padding-right: 30px;
-}
+} */
 .head{
   display: flex;
   align-items: center;
@@ -238,8 +241,9 @@ footer{border-radius: 5px;
   
 } 
 .seven,.eight,.nine,.ten{
-  height: 50vh;
-  width: 68vw;
+  /* height: 50vh; */
+  width: fit-content;
+  padding: 20px ;
 }
 .ten{
   height: 55vh;
