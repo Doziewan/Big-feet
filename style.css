@@ -189,19 +189,24 @@ nav a{
 
 }
 .seven,.eight,.nine,.ten {
-  height: 40vh;
- 
+  height: fit-content;
+  padding: 20px;
 }
 .seven img{
   width: 40vw;
+  height: 50%;
 }
 .eight img{
   width: 40vw;
+  height: 50%;
 }
 .nine img{
   width: 38vw;
+  height: 50%;
 }
 .ten img{
 width: 40vw;
+height: 50%;
 }
 }
+
